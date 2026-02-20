@@ -42,11 +42,11 @@
   ┌──────────────────────────────────────────────────────────────┐
   │                                                              │
   │  [SENDER PC]  ──── reverse SSH tunnel ────►  [SERVER/VPS]    │
-  │  (Windows / Cygwin)          port 22         (Linux)         │
+  │  (Windows / Cygwin)                          (Linux)         │
   │                                                   ▲          │
-  │                                    rsync over SSH │          │
-  │                                          port 2222│          │
-  │  [RECEIVER PC] ───────────────────────────────────┘          │
+  │                                                   │          │
+  │                                                   │          │
+  │  [RECEIVER PC] ────────── rsync over SSH ─────────┘          │
   │  (Windows / Cygwin)                                          │
   │                                                              │
   └──────────────────────────────────────────────────────────────┘
