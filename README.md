@@ -1,5 +1,5 @@
 <div align="center">
-<!-- <img src="https://raw.githubusercontent.com/your-username/Rsync_Game_Launcher/main/assets/logo.png" alt="RGL Logo" width="150" /> -->
+
 # 🎮 Rsync Game Launcher 
 
 **RGL** — a blazing-fast peer-to-peer game file synchronization tool powered by reverse SSH tunneling and rsync.
