@@ -23,14 +23,14 @@
 
 ## ✨ Features
 
-- 🔁 **Reverse SSH Tunneling** — the sender punches through NAT without any port forwarding
-- ⚡ **rsync-powered** — only transfers changed files; supports resuming partial downloads
-- 🪟 **Self-contained** — ships with a bundled Cygwin environment, no system-wide installation needed for receivers
-- 🔑 **Key-based auth** — auto-generates separate SSH key pairs for send and receive roles
-- 🎮 **Post-sync launcher** — automatically offers to launch the game after sync completes
-- 🔔 **Connection notifications** — optional Windows toast notifications when a client connects
-- 📋 **Full logging** — all sessions are saved to the `Logs/` folder
-- 🧩 **Simple flag-based modes** — `send` and `receive` via a single batch file
+- **Reverse SSH Tunneling** — the sender punches through NAT without any port forwarding
+- **rsync-powered** — only transfers changed files; supports resuming partial downloads
+- **Self-contained** — ships with a bundled Cygwin environment, no system-wide installation needed for receivers
+- **Key-based auth** — auto-generates separate SSH key pairs for send and receive roles
+- **Post-sync launcher** — automatically offers to launch the game after sync completes
+- **Connection notifications** — optional Windows toast notifications when a client connects
+- **Full logging** — all sessions are saved to the `Logs/` folder
+- **Simple flag-based modes** — `send` and `receive` via a single batch file
 
 ---
 
