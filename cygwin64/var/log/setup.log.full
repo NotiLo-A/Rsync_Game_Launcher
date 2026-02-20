@@ -1,0 +1,749 @@
+2026/02/15 14:49:51 Starting cygwin install, version 2.935
+2026/02/15 14:49:51 User has backup/restore rights
+2026/02/15 14:49:51 User has symlink creation right
+2026/02/15 14:49:51 Current Directory: C:\Users\Hita
+Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2026/02/15 14:49:55 source: network install
+2026/02/15 14:49:56 root: C:\cygwin64 system
+2026/02/15 14:49:56 Changing gid to Administrators
+2026/02/15 14:49:58 Selected local directory: C:\Users\Hita
+2026/02/15 14:49:59 net: Preconfig
+Loaded cached mirror list
+User-Agent: default is "Cygwin-Setup/2.935 (Windows NT 10.0.22621;x86_64;0409;SymLinkPriv)"
+Request for URL https://cygwin.com/mirrors.lst satisfied from cache
+Fetched URL: https://cygwin.com/mirrors.lst
+2026/02/15 14:50:02 site: https://mirrors.163.com/cygwin/
+Request for URL https://mirrors.163.com/cygwin/x86_64/setup.zst.sig satisfied from cache
+Fetched URL: https://mirrors.163.com/cygwin/x86_64/setup.zst.sig
+Request for URL https://mirrors.163.com/cygwin/x86_64/setup.zst satisfied from cache
+Fetched URL: https://mirrors.163.com/cygwin/x86_64/setup.zst
+signature: sig_type 0, pk_alg 1, hash_alg 8
+signature: tried key cygwin, returned 0x00000000 Success
+.ini setup_version is 2.935, our setup_version is 2.935
+INSTALLED.DB version 3
+2026/02/15 14:50:08 solving: 0 tasks, update: yes, use test packages: no
+libsolv: solver started
+libsolv: dosplitprovides=0, noupdateprovide=0, noinfarchcheck=0
+libsolv: allowuninstall=0, allowdowngrade=0, allownamechange=1, allowarchchange=0, allowvendorchange=1
+libsolv: dupallowdowngrade=1, dupallownamechange=1, dupallowarchchange=1, dupallowvendorchange=1
+libsolv: promoteepoch=0, forbidselfconflicts=0
+libsolv: obsoleteusesprovides=0, implicitobsoleteusesprovides=0, obsoleteusescolors=0, implicitobsoleteusescolors=0
+libsolv: dontinstallrecommended=0, addalreadyrecommended=0 onlynamespacerecommended=0
+libsolv: number of solvables: 56308, memory used: 3079 K
+libsolv: number of ids: 28786 + 56236
+libsolv: string memory used: 112 K array + 490 K data,  rel memory used: 659 K array
+libsolv: string hash memory: 256 K, rel hash memory : 512 K
+libsolv: provide ids: 12152
+libsolv: provide space needed: 42399 + 112472
+libsolv: shrunk whatprovidesdata from 42399 to 41882
+libsolv: shrunk whatprovidesauxdata from 42399 to 30244
+libsolv: whatprovides memory used: 336 K id array, 602 K data
+libsolv: whatprovidesaux memory used: 112 K id array, 118 K data
+libsolv: WARNING: pool_addfileprovides was not called, this may result in slow operation
+libsolv: lazywhatprovidesq size: 0 entries
+libsolv: createwhatprovides took 0 ms
+libsolv: obsoletes data: 1 entries
+libsolv: added 1822 pkg rules for installed solvables
+libsolv: added 0 pkg rules for updaters of installed solvables
+libsolv: added 0 pkg rules for packages involved in a job
+libsolv: added 0 pkg rules because of weak dependencies
+libsolv: 349 of 28093 installable solvables considered for solving
+libsolv: pruned rules from 1823 to 1823
+libsolv:   binary: 816
+libsolv:   normal: 1006, 9495 literals
+libsolv: pkg rule memory used: 42 K
+libsolv: pkg rule creation took 16 ms
+libsolv: choice rule creation took 0 ms
+libsolv: 1822 pkg rules, 2 * 81 update rules, 0 job rules, 0 infarch rules, 0 dup rules, 0 choice rules, 0 best rules, 0 yumobs rules
+libsolv: 0 black rules, 0 recommends rules, 0 repo priority rules
+libsolv: overall rule memory used: 46 K
+libsolv: solving...
+libsolv: resolving job rules
+libsolv: resolving installed packages
+libsolv: deciding orphaned packages
+libsolv: solver statistics: 0 learned rules, 0 unsolvable, 0 minimization steps
+libsolv: done solving.
+libsolv: solver took 0 ms
+libsolv: final solver statistics: 0 problems, 0 learned rules, 0 unsolvable
+libsolv: solver_solve took 16 ms
+libsolv: 
+libsolv: transaction:
+libsolv: 
+libsolv: orphaned packages:
+libsolv:   base-0.0-0.any (kept)
+libsolv:   _windows-10.0.22621.any (kept)
+libsolv: 
+libsolv: ordering transaction
+libsolv: transaction elements: 0
+2026/02/15 14:50:21 solving: 0 tasks, update: yes, use test packages: no
+libsolv: solver started
+libsolv: dosplitprovides=0, noupdateprovide=0, noinfarchcheck=0
+libsolv: allowuninstall=0, allowdowngrade=0, allownamechange=1, allowarchchange=0, allowvendorchange=1
+libsolv: dupallowdowngrade=1, dupallownamechange=1, dupallowarchchange=1, dupallowvendorchange=1
+libsolv: promoteepoch=0, forbidselfconflicts=0
+libsolv: obsoleteusesprovides=0, implicitobsoleteusesprovides=0, obsoleteusescolors=0, implicitobsoleteusescolors=0
+libsolv: dontinstallrecommended=0, addalreadyrecommended=0 onlynamespacerecommended=0
+libsolv: obsoletes data: 1 entries
+libsolv: added 0 pkg rules for installed solvables
+libsolv: added 0 pkg rules for updaters of installed solvables
+libsolv: added 0 pkg rules for packages involved in a job
+libsolv: added 0 pkg rules because of weak dependencies
+libsolv: 349 of 28093 installable solvables considered for solving
+libsolv: pkg rule memory used: 42 K
+libsolv: pkg rule creation took 0 ms
+libsolv: choice rule creation took 0 ms
+libsolv: 1822 pkg rules, 2 * 81 update rules, 0 job rules, 0 infarch rules, 0 dup rules, 0 choice rules, 0 best rules, 0 yumobs rules
+libsolv: 0 black rules, 0 recommends rules, 0 repo priority rules
+libsolv: overall rule memory used: 46 K
+libsolv: solving...
+libsolv: resolving job rules
+libsolv: resolving installed packages
+libsolv: deciding orphaned packages
+libsolv: solver statistics: 0 learned rules, 0 unsolvable, 0 minimization steps
+libsolv: done solving.
+libsolv: solver took 0 ms
+libsolv: final solver statistics: 0 problems, 0 learned rules, 0 unsolvable
+libsolv: solver_solve took 0 ms
+libsolv: 
+libsolv: transaction:
+libsolv: 
+libsolv: orphaned packages:
+libsolv:   base-0.0-0.any (kept)
+libsolv:   _windows-10.0.22621.any (kept)
+libsolv: 
+libsolv: ordering transaction
+libsolv: transaction elements: 0
+2026/02/15 14:50:22 solving: 0 tasks, update: yes, use test packages: yes
+libsolv: solver started
+libsolv: dosplitprovides=0, noupdateprovide=0, noinfarchcheck=0
+libsolv: allowuninstall=0, allowdowngrade=0, allownamechange=1, allowarchchange=0, allowvendorchange=1
+libsolv: dupallowdowngrade=1, dupallownamechange=1, dupallowarchchange=1, dupallowvendorchange=1
+libsolv: promoteepoch=0, forbidselfconflicts=0
+libsolv: obsoleteusesprovides=0, implicitobsoleteusesprovides=0, obsoleteusescolors=0, implicitobsoleteusescolors=0
+libsolv: dontinstallrecommended=0, addalreadyrecommended=0 onlynamespacerecommended=0
+libsolv: obsoletes data: 1 entries
+libsolv: added 0 pkg rules for installed solvables
+libsolv: added 0 pkg rules for updaters of installed solvables
+libsolv: added 0 pkg rules for packages involved in a job
+libsolv: added 0 pkg rules because of weak dependencies
+libsolv: 349 of 28093 installable solvables considered for solving
+libsolv: pkg rule memory used: 42 K
+libsolv: pkg rule creation took 0 ms
+libsolv: choice rule creation took 0 ms
+libsolv: 1822 pkg rules, 2 * 81 update rules, 0 job rules, 0 infarch rules, 0 dup rules, 0 choice rules, 0 best rules, 0 yumobs rules
+libsolv: 0 black rules, 0 recommends rules, 0 repo priority rules
+libsolv: overall rule memory used: 46 K
+libsolv: solving...
+libsolv: resolving job rules
+libsolv: resolving installed packages
+libsolv: deciding orphaned packages
+libsolv: solver statistics: 0 learned rules, 0 unsolvable, 0 minimization steps
+libsolv: done solving.
+libsolv: solver took 0 ms
+libsolv: final solver statistics: 0 problems, 0 learned rules, 0 unsolvable
+libsolv: solver_solve took 16 ms
+libsolv: 
+libsolv: transaction:
+libsolv:   upgrade   coreutils-9.6-1.any
+libsolv:   (obsoletes
+libsolv:  coreutils-9.0-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   cygutils-1.4.17-5.any
+libsolv:   (obsoletes
+libsolv:  cygutils-1.4.17-4.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   cygwin-3.7.0-0.405.g6d049c54c331.any
+libsolv:   (obsoletes
+libsolv:  cygwin-3.6.6-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   libgcc1-16.0.0+20251116-0.1.any
+libsolv:   (obsoletes
+libsolv:  libgcc1-13.4.0-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   libiconv2-1.18-1.any
+libsolv:   (obsoletes
+libsolv:  libiconv2-1.17-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   libintl8-0.26-1.any
+libsolv:   (obsoletes
+libsolv:  libintl8-0.22.5-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   libncursesw10-6.6+20260117-1.any
+libsolv:   (obsoletes
+libsolv:  libncursesw10-6.5+20240427-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   libp11-kit0-0.26.2-1.any
+libsolv:   (obsoletes
+libsolv:  libp11-kit0-0.23.20-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   libstdc++6-16.0.0+20251116-0.1.any
+libsolv:   (obsoletes
+libsolv:  libstdc++6-13.4.0-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   ncurses-6.6+20260117-1.any
+libsolv:   (obsoletes
+libsolv:  ncurses-6.5+20240427-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   p11-kit-0.26.2-1.any
+libsolv:   (obsoletes
+libsolv:  p11-kit-0.23.20-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   p11-kit-trust-0.26.2-1.any
+libsolv:   (obsoletes
+libsolv:  p11-kit-trust-0.23.20-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   terminfo-6.6+20260117-1.any
+libsolv:   (obsoletes
+libsolv:  terminfo-6.5+20240427-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   vim-minimal-9.1.1952-1.any
+libsolv:   (obsoletes
+libsolv:  vim-minimal-9.1.1825-1.any
+libsolv: )
+libsolv: 
+libsolv:   install   libffi8-3.5.2-1.any
+libsolv: 
+libsolv: 
+libsolv: orphaned packages:
+libsolv:   base-0.0-0.any (kept)
+libsolv:   _windows-10.0.22621.any (kept)
+libsolv: 
+libsolv: ordering transaction
+libsolv: transaction elements: 15
+libsolv: edges: 34, edge space: 51
+libsolv: edge creation took 0 ms
+libsolv: cycle: --> 
+libsolv: libintl8-0.26-1.any ##411##> 
+libsolv: libiconv2-1.18-1.any --410--> 
+libsolv: cygwin-3.7.0-0.405.g6d049c54c331.any --410--> 
+libsolv: 
+libsolv: cycle: --> 
+libsolv: libintl8-0.26-1.any ##411##> 
+libsolv: cygwin-3.7.0-0.405.g6d049c54c331.any --410--> 
+libsolv: 
+libsolv: cycle: --> 
+libsolv: cygwin-3.7.0-0.405.g6d049c54c331.any ##411##> 
+libsolv: libgcc1-16.0.0+20251116-0.1.any --410--> 
+libsolv: 
+libsolv: cycles broken: 3
+libsolv: cycle breaking took 0 ms
+libsolv: cycle edge creation took 0 ms
+libsolv: invedge space: 62
+libsolv: creating new transaction took 0 ms
+libsolv: transaction ordering took 0 ms
+libsolv: 14 upgraded packages:
+libsolv:   - coreutils-9.0-1.any -> coreutils-9.6-1.any
+libsolv:   - cygutils-1.4.17-4.any -> cygutils-1.4.17-5.any
+libsolv:   - cygwin-3.6.6-1.any -> cygwin-3.7.0-0.405.g6d049c54c331.any
+libsolv:   - libgcc1-13.4.0-1.any -> libgcc1-16.0.0+20251116-0.1.any
+libsolv:   - libiconv2-1.17-1.any -> libiconv2-1.18-1.any
+libsolv:   - libintl8-0.22.5-1.any -> libintl8-0.26-1.any
+libsolv:   - libncursesw10-6.5+20240427-1.any -> libncursesw10-6.6+20260117-1.any
+libsolv:   - libp11-kit0-0.23.20-1.any -> libp11-kit0-0.26.2-1.any
+libsolv:   - libstdc++6-13.4.0-1.any -> libstdc++6-16.0.0+20251116-0.1.any
+libsolv:   - ncurses-6.5+20240427-1.any -> ncurses-6.6+20260117-1.any
+libsolv:   - p11-kit-0.23.20-1.any -> p11-kit-0.26.2-1.any
+libsolv:   - p11-kit-trust-0.23.20-1.any -> p11-kit-trust-0.26.2-1.any
+libsolv:   - terminfo-6.5+20240427-1.any -> terminfo-6.6+20260117-1.any
+libsolv:   - vim-minimal-9.1.1825-1.any -> vim-minimal-9.1.1952-1.any
+libsolv: 
+libsolv: 1 installed packages:
+libsolv:   - libffi8-3.5.2-1.any
+libsolv: 
+2026/02/15 14:50:29 solving: 0 tasks, update: yes, use test packages: no
+libsolv: solver started
+libsolv: dosplitprovides=0, noupdateprovide=0, noinfarchcheck=0
+libsolv: allowuninstall=0, allowdowngrade=0, allownamechange=1, allowarchchange=0, allowvendorchange=1
+libsolv: dupallowdowngrade=1, dupallownamechange=1, dupallowarchchange=1, dupallowvendorchange=1
+libsolv: promoteepoch=0, forbidselfconflicts=0
+libsolv: obsoleteusesprovides=0, implicitobsoleteusesprovides=0, obsoleteusescolors=0, implicitobsoleteusescolors=0
+libsolv: dontinstallrecommended=0, addalreadyrecommended=0 onlynamespacerecommended=0
+libsolv: obsoletes data: 1 entries
+libsolv: added 0 pkg rules for installed solvables
+libsolv: added 0 pkg rules for updaters of installed solvables
+libsolv: added 0 pkg rules for packages involved in a job
+libsolv: added 0 pkg rules because of weak dependencies
+libsolv: 349 of 28093 installable solvables considered for solving
+libsolv: pkg rule memory used: 42 K
+libsolv: pkg rule creation took 0 ms
+libsolv: choice rule creation took 0 ms
+libsolv: 1822 pkg rules, 2 * 81 update rules, 0 job rules, 0 infarch rules, 0 dup rules, 0 choice rules, 0 best rules, 0 yumobs rules
+libsolv: 0 black rules, 0 recommends rules, 0 repo priority rules
+libsolv: overall rule memory used: 46 K
+libsolv: solving...
+libsolv: resolving job rules
+libsolv: resolving installed packages
+libsolv: deciding orphaned packages
+libsolv: solver statistics: 0 learned rules, 0 unsolvable, 0 minimization steps
+libsolv: done solving.
+libsolv: solver took 0 ms
+libsolv: final solver statistics: 0 problems, 0 learned rules, 0 unsolvable
+libsolv: solver_solve took 0 ms
+libsolv: 
+libsolv: transaction:
+libsolv: 
+libsolv: orphaned packages:
+libsolv:   base-0.0-0.any (kept)
+libsolv:   _windows-10.0.22621.any (kept)
+libsolv: 
+libsolv: ordering transaction
+libsolv: transaction elements: 0
+2026/02/15 14:52:03 solving: 3 tasks, update: no, use test packages: no
+libsolv: solver started
+libsolv: dosplitprovides=0, noupdateprovide=0, noinfarchcheck=0
+libsolv: allowuninstall=0, allowdowngrade=0, allownamechange=1, allowarchchange=0, allowvendorchange=1
+libsolv: dupallowdowngrade=1, dupallownamechange=1, dupallowarchchange=1, dupallowvendorchange=1
+libsolv: promoteepoch=0, forbidselfconflicts=0
+libsolv: obsoleteusesprovides=0, implicitobsoleteusesprovides=0, obsoleteusescolors=0, implicitobsoleteusescolors=0
+libsolv: dontinstallrecommended=0, addalreadyrecommended=0 onlynamespacerecommended=0
+libsolv: obsoletes data: 1 entries
+libsolv: added 0 pkg rules for installed solvables
+libsolv: added 0 pkg rules for updaters of installed solvables
+libsolv: added 163 pkg rules for packages involved in a job
+libsolv: added 0 pkg rules because of weak dependencies
+libsolv: 384 of 28093 installable solvables considered for solving
+libsolv: pruned rules from 1986 to 1986
+libsolv:   binary: 855
+libsolv:   normal: 1130, 10589 literals
+libsolv: pkg rule memory used: 46 K
+libsolv: pkg rule creation took 0 ms
+libsolv: choice rule creation took 0 ms
+libsolv: 1985 pkg rules, 2 * 81 update rules, 3 job rules, 0 infarch rules, 0 dup rules, 0 choice rules, 0 best rules, 0 yumobs rules
+libsolv: 0 black rules, 0 recommends rules, 0 repo priority rules
+libsolv: overall rule memory used: 50 K
+libsolv: solving...
+libsolv: resolving job rules
+libsolv: resolving installed packages
+libsolv: deciding orphaned packages
+libsolv: solver statistics: 0 learned rules, 0 unsolvable, 0 minimization steps
+libsolv: done solving.
+libsolv: solver took 0 ms
+libsolv: final solver statistics: 0 problems, 0 learned rules, 0 unsolvable
+libsolv: solver_solve took 0 ms
+libsolv: 
+libsolv: transaction:
+libsolv:   install   cygrunsrv-1.64-1.any
+libsolv: 
+libsolv:   install   openssh-10.2p1-3.any
+libsolv: 
+libsolv:   install   rsync-3.3.0-1.any
+libsolv: 
+libsolv:   install   libxxhash0-0.8.3-1.any
+libsolv: 
+libsolv:   install   csih-0.9.14-1.any
+libsolv: 
+libsolv:   install   libcrypt2-4.5.2-1.any
+libsolv: 
+libsolv:   install   libedit0-20251016-1.any
+libsolv: 
+libsolv:   install   libfido2-1.16.0-1.any
+libsolv: 
+libsolv:   install   libgssapi_krb5_2-1.15.2-2.any
+libsolv: 
+libsolv:   install   libkrb5_3-1.15.2-2.any
+libsolv: 
+libsolv:   install   libcom_err2-1.44.5-1.any
+libsolv: 
+libsolv:   install   libk5crypto3-1.15.2-2.any
+libsolv: 
+libsolv:   install   libkrb5support0-1.15.2-2.any
+libsolv: 
+libsolv: 
+libsolv: orphaned packages:
+libsolv:   base-0.0-0.any (kept)
+libsolv:   _windows-10.0.22621.any (kept)
+libsolv: 
+libsolv: ordering transaction
+libsolv: transaction elements: 13
+libsolv: edges: 16, edge space: 19
+libsolv: edge creation took 0 ms
+libsolv: cycles broken: 0
+libsolv: cycle breaking took 0 ms
+libsolv: invedge space: 31
+libsolv: creating new transaction took 0 ms
+libsolv: transaction ordering took 0 ms
+libsolv: 13 installed packages:
+libsolv:   - csih-0.9.14-1.any
+libsolv:   - cygrunsrv-1.64-1.any
+libsolv:   - libcom_err2-1.44.5-1.any
+libsolv:   - libcrypt2-4.5.2-1.any
+libsolv:   - libedit0-20251016-1.any
+libsolv:   - libfido2-1.16.0-1.any
+libsolv:   - libgssapi_krb5_2-1.15.2-2.any
+libsolv:   - libk5crypto3-1.15.2-2.any
+libsolv:   - libkrb5_3-1.15.2-2.any
+libsolv:   - libkrb5support0-1.15.2-2.any
+libsolv:   - libxxhash0-0.8.3-1.any
+libsolv:   - openssh-10.2p1-3.any
+libsolv:   - rsync-3.3.0-1.any
+libsolv: 
+2026/02/15 14:52:03 Augmented Transaction List:
+2026/02/15 14:52:03    0 install cygrunsrv        1.64-1     
+2026/02/15 14:52:03    1 install libxxhash0       0.8.3-1    
+2026/02/15 14:52:03    2 install csih             0.9.14-1   
+2026/02/15 14:52:03    3 install libcrypt2        4.5.2-1    
+2026/02/15 14:52:03    4 install libedit0         20251016-1 
+2026/02/15 14:52:03    5 install libfido2         1.16.0-1   
+2026/02/15 14:52:03    6 install libcom_err2      1.44.5-1   
+2026/02/15 14:52:03    7 install libkrb5support0  1.15.2-2   
+2026/02/15 14:52:03    8 install rsync            3.3.0-1    
+2026/02/15 14:52:03    9 install libk5crypto3     1.15.2-2   
+2026/02/15 14:52:03   10 install libkrb5_3        1.15.2-2   
+2026/02/15 14:52:03   11 install libgssapi_krb5_2 1.15.2-2   
+2026/02/15 14:52:03   12 install openssh          10.2p1-3   
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/cygrunsrv/cygrunsrv-1.64-1.tar.xz C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/cygrunsrv/cygrunsrv-1.64-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/cygrunsrv/cygrunsrv-1.64-1.tar.xz
+SHA512 verified OK: file://C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/cygrunsrv/cygrunsrv-1.64-1.tar.xz 4450584f7fea2298b73bc2b3d7df74a166d12eb869acd144279b8e4f767761e6e79913bdfaebc52f728b83dac795d2bf6e102cbbb5053b3f36cb8a243fde5a97
+2026/02/15 14:52:08 Downloaded C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/cygrunsrv/cygrunsrv-1.64-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/xxhash/libxxhash0/libxxhash0-0.8.3-1.tar.xz C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/xxhash/libxxhash0/libxxhash0-0.8.3-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/xxhash/libxxhash0/libxxhash0-0.8.3-1.tar.xz
+SHA512 verified OK: file://C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/xxhash/libxxhash0/libxxhash0-0.8.3-1.tar.xz 3924c3248333ab9be23f14f9d723900d24a10a9bd2e4e61a51a99663a1349327df82ef35d2b8c1bb13120b77677698f06067a02e49c696bd874811645f1cea50
+2026/02/15 14:52:09 Downloaded C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/xxhash/libxxhash0/libxxhash0-0.8.3-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/csih/csih-0.9.14-1.tar.xz C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/csih/csih-0.9.14-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/csih/csih-0.9.14-1.tar.xz
+SHA512 verified OK: file://C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/csih/csih-0.9.14-1.tar.xz 9fea1343d7f64b1751cb1bde1f6f6e6f6e22e6e9a235fb677e293d7f65da28a6ac576fd675d674a7cd8400b24fcbb186489a33fb40fb30da5a2edaca5fb8d20a
+2026/02/15 14:52:09 Downloaded C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/csih/csih-0.9.14-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/libxcrypt/libcrypt2/libcrypt2-4.5.2-1-x86_64.tar.xz C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libxcrypt/libcrypt2/libcrypt2-4.5.2-1-x86_64.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libxcrypt/libcrypt2/libcrypt2-4.5.2-1-x86_64.tar.xz
+SHA512 verified OK: file://C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libxcrypt/libcrypt2/libcrypt2-4.5.2-1-x86_64.tar.xz 7668d29aaebba8ca94e48e810d92108db72b067b2786cea8dcf4a049c29f20f0aeb8653a6e9524869c69e0b1df9d4d0ac499a052a86f0d44178e8a8167002c97
+2026/02/15 14:52:10 Downloaded C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libxcrypt/libcrypt2/libcrypt2-4.5.2-1-x86_64.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/libedit/libedit0/libedit0-20251016-1-x86_64.tar.xz C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libedit/libedit0/libedit0-20251016-1-x86_64.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libedit/libedit0/libedit0-20251016-1-x86_64.tar.xz
+SHA512 verified OK: file://C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libedit/libedit0/libedit0-20251016-1-x86_64.tar.xz 4c5afd4f494da552e3073dd9cd0a25b95d29065fb9b68ad3dfc2e2546a40e9f038821dd15bbece3f1d026276df798afc3a90dd09c1c9265df6fb262055781170
+2026/02/15 14:52:10 Downloaded C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libedit/libedit0/libedit0-20251016-1-x86_64.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/libfido2/libfido2-1.16.0-1-x86_64.tar.xz C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libfido2/libfido2-1.16.0-1-x86_64.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libfido2/libfido2-1.16.0-1-x86_64.tar.xz
+SHA512 verified OK: file://C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libfido2/libfido2-1.16.0-1-x86_64.tar.xz dcaabe6429e6c33b5ab50d5f0091e21a7501e5f6bfd84a2958d6dfd2638ff5949796790eb82efb02b09621b80563e95a3faa70d4e4f8f9de801215ea0a9d55c4
+2026/02/15 14:52:12 Downloaded C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libfido2/libfido2-1.16.0-1-x86_64.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/e2fsprogs/libcom_err2/libcom_err2-1.44.5-1.tar.xz C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/e2fsprogs/libcom_err2/libcom_err2-1.44.5-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/e2fsprogs/libcom_err2/libcom_err2-1.44.5-1.tar.xz
+SHA512 verified OK: file://C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/e2fsprogs/libcom_err2/libcom_err2-1.44.5-1.tar.xz 3344fbc09364d789e92a81af5ba1e830dd47cef3392a1ee389a2fd49a9cc56a63afc78bebefb92c025d8222e6e454c114d572f0f395e5e20ede2b2266b0fe709
+2026/02/15 14:52:12 Downloaded C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/e2fsprogs/libcom_err2/libcom_err2-1.44.5-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/krb5/libkrb5support0/libkrb5support0-1.15.2-2.tar.xz C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/krb5/libkrb5support0/libkrb5support0-1.15.2-2.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/krb5/libkrb5support0/libkrb5support0-1.15.2-2.tar.xz
+SHA512 verified OK: file://C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/krb5/libkrb5support0/libkrb5support0-1.15.2-2.tar.xz 93162fc8430153b054c77c1dea7d9df6be8422922a9ee6fd923b46797c466200d78e80cb4e17387dd18ed1631a7828a57169fdc743c7b2a7a270259aa586113d
+2026/02/15 14:52:12 Downloaded C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/krb5/libkrb5support0/libkrb5support0-1.15.2-2.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/rsync/rsync-3.3.0-1.tar.xz C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/rsync/rsync-3.3.0-1.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/rsync/rsync-3.3.0-1.tar.xz
+SHA512 verified OK: file://C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/rsync/rsync-3.3.0-1.tar.xz 80d41800f7b2ddab272bcdbef4ad7708804d1bd64009d39643a22b67f13fed968bf2a73e1237dca72f828a7bae116773b138daa37370c9bae4059e6168a66712
+2026/02/15 14:52:13 Downloaded C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/rsync/rsync-3.3.0-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/krb5/libk5crypto3/libk5crypto3-1.15.2-2.tar.xz C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/krb5/libk5crypto3/libk5crypto3-1.15.2-2.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/krb5/libk5crypto3/libk5crypto3-1.15.2-2.tar.xz
+SHA512 verified OK: file://C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/krb5/libk5crypto3/libk5crypto3-1.15.2-2.tar.xz 249808d087f1a1ac7a5b117aaf499e173c9e404b224b9d9ff5a5fa1d2ace8b7c1185100bfa33174a82cbc250f376671d48b7d93d11924b5c4b524897841e2967
+2026/02/15 14:52:13 Downloaded C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/krb5/libk5crypto3/libk5crypto3-1.15.2-2.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/krb5/libkrb5_3/libkrb5_3-1.15.2-2.tar.xz C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/krb5/libkrb5_3/libkrb5_3-1.15.2-2.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/krb5/libkrb5_3/libkrb5_3-1.15.2-2.tar.xz
+SHA512 verified OK: file://C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/krb5/libkrb5_3/libkrb5_3-1.15.2-2.tar.xz 639bb23f5bafc62fe6d36d44f1786445b949db5547dee66c73ec75c5d1d9d3444b8f326ffae811fb18fed3e85fead713362cf2c2488f880d3f5bc8ea087cee64
+2026/02/15 14:52:14 Downloaded C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/krb5/libkrb5_3/libkrb5_3-1.15.2-2.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/krb5/libgssapi_krb5_2/libgssapi_krb5_2-1.15.2-2.tar.xz C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/krb5/libgssapi_krb5_2/libgssapi_krb5_2-1.15.2-2.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/krb5/libgssapi_krb5_2/libgssapi_krb5_2-1.15.2-2.tar.xz
+SHA512 verified OK: file://C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/krb5/libgssapi_krb5_2/libgssapi_krb5_2-1.15.2-2.tar.xz 0b9922b28f24f260bccb179c52354377173c1f0243420fb655154b4bd6da99af33b17c172dc46344d9fb38756abb0d8d449d5c7fba7f179dda7a3337c330224f
+2026/02/15 14:52:14 Downloaded C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/krb5/libgssapi_krb5_2/libgssapi_krb5_2-1.15.2-2.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/openssh/openssh-10.2p1-3-x86_64.tar.xz C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssh/openssh-10.2p1-3-x86_64.tar.xz.tmp
+Checking SHA512 for file://C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssh/openssh-10.2p1-3-x86_64.tar.xz
+SHA512 verified OK: file://C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssh/openssh-10.2p1-3-x86_64.tar.xz 77aba4edfbfd1d13725f006b4512a413f8bb57a2dbac380ca65c33b99e891f3c8f88a4e00d3530ccadbb6cbf44b438bfeb4392fe2861fbfa01fb3d036a3e3e61
+2026/02/15 14:52:15 Downloaded C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssh/openssh-10.2p1-3-x86_64.tar.xz
+2026/02/15 14:52:15 Registry value set: HKEY_LOCAL_MACHINE\Software\Cygwin\setup\rootdir = "C:\cygwin64"
+2026/02/15 14:52:15 Extracting from file://C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/cygrunsrv/cygrunsrv-1.64-1.tar.xz
+Installing file cygfile:///bin/
+Installing file cygfile:///bin/cygrunsrv.exe
+Installing file cygfile:///usr/
+Installing file cygfile:///usr/lib/
+Installing file cygfile:///usr/share/
+Installing file cygfile:///usr/share/doc/
+Installing file cygfile:///usr/share/doc/cygrunsrv/
+Installing file cygfile:///usr/share/doc/cygrunsrv/ChangeLog
+Installing file cygfile:///usr/share/doc/cygrunsrv/COPYING
+Installing file cygfile:///usr/share/doc/cygrunsrv/TODO
+Installing file cygfile:///usr/share/doc/Cygwin/
+Installing file cygfile:///usr/share/doc/Cygwin/cygrunsrv.README
+2026/02/15 14:52:15 Extracting from file://C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/xxhash/libxxhash0/libxxhash0-0.8.3-1.tar.xz
+Installing file cygfile:///usr/bin/cygxxhash-0.dll
+2026/02/15 14:52:16 Extracting from file://C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/csih/csih-0.9.14-1.tar.xz
+Installing file cygfile:///usr/
+Installing file cygfile:///usr/lib/
+Installing file cygfile:///usr/lib/csih/
+Installing file cygfile:///usr/lib/csih/getAccountName.exe
+Installing file cygfile:///usr/lib/csih/getVolInfo.exe
+Installing file cygfile:///usr/lib/csih/winProductName.exe
+Installing file cygfile:///usr/share/
+Installing file cygfile:///usr/share/csih/
+Installing file cygfile:///usr/share/csih/cygwin-service-installation-helper.sh
+Installing file cygfile:///usr/share/doc/
+Installing file cygfile:///usr/share/doc/csih/
+Installing file cygfile:///usr/share/doc/csih/AUTHORS
+Installing file cygfile:///usr/share/doc/csih/ChangeLog
+Installing file cygfile:///usr/share/doc/csih/COPYING
+Installing file cygfile:///usr/share/doc/csih/COPYING.LGPLv2.1
+Installing file cygfile:///usr/share/doc/csih/NEWS
+Installing file cygfile:///usr/share/doc/csih/TODO
+2026/02/15 14:52:16 Extracting from file://C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libxcrypt/libcrypt2/libcrypt2-4.5.2-1-x86_64.tar.xz
+Installing file cygfile:///usr/bin/cygcrypt-2.dll
+Installing file cygfile:///usr/share/doc/
+Installing file cygfile:///usr/share/doc/libxcrypt/
+Installing file cygfile:///usr/share/doc/libxcrypt/AUTHORS
+Installing file cygfile:///usr/share/doc/libxcrypt/ChangeLog
+Installing file cygfile:///usr/share/doc/libxcrypt/COPYING.LIB
+Installing file cygfile:///usr/share/doc/libxcrypt/NEWS
+Installing file cygfile:///usr/share/doc/libxcrypt/README
+Installing file cygfile:///usr/share/doc/libxcrypt/THANKS
+Installing file cygfile:///usr/share/doc/libxcrypt/TODO
+2026/02/15 14:52:16 Extracting from file://C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libedit/libedit0/libedit0-20251016-1-x86_64.tar.xz
+Installing file cygfile:///usr/bin/
+Installing file cygfile:///usr/bin/cygedit-0.dll
+Installing file cygfile:///usr/share/doc/
+Installing file cygfile:///usr/share/doc/libedit/
+Installing file cygfile:///usr/share/doc/libedit/ChangeLog
+Installing file cygfile:///usr/share/doc/libedit/COPYING
+Installing file cygfile:///usr/share/doc/libedit/THANKS
+Installing file cygfile:///usr/share/man/man5/
+Installing file cygfile:///usr/share/man/man5/editrc.5.gz
+2026/02/15 14:52:16 Extracting from file://C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libfido2/libfido2-1.16.0-1-x86_64.tar.xz
+Installing file cygfile:///usr/bin/
+Installing file cygfile:///usr/bin/cygfido2-1.dll
+Installing file cygfile:///usr/bin/fido2-assert.exe
+Installing file cygfile:///usr/bin/fido2-cred.exe
+Installing file cygfile:///usr/bin/fido2-token.exe
+2026/02/15 14:52:16 Extracting from file://C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/e2fsprogs/libcom_err2/libcom_err2-1.44.5-1.tar.xz
+Installing file cygfile:///usr/bin/cygcom_err-2.dll
+2026/02/15 14:52:16 Extracting from file://C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/krb5/libkrb5support0/libkrb5support0-1.15.2-2.tar.xz
+Installing file cygfile:///usr/bin/cygkrb5support-0.dll
+2026/02/15 14:52:16 Extracting from file://C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/rsync/rsync-3.3.0-1.tar.xz
+Installing file cygfile:///usr/
+Installing file cygfile:///usr/bin/
+Installing file cygfile:///usr/bin/rsync-ssl
+Installing file cygfile:///usr/bin/rsync.exe
+Installing file cygfile:///usr/share/
+Installing file cygfile:///usr/share/doc/
+Installing file cygfile:///usr/share/doc/Cygwin/
+Installing file cygfile:///usr/share/doc/Cygwin/rsync.README
+Installing file cygfile:///usr/share/doc/rsync/
+Installing file cygfile:///usr/share/doc/rsync/COPYING
+Installing file cygfile:///usr/share/doc/rsync/csprotocol.txt
+Installing file cygfile:///usr/share/doc/rsync/daemon-parm.txt
+Installing file cygfile:///usr/share/doc/rsync/NEWS.md
+Installing file cygfile:///usr/share/doc/rsync/README.md
+Installing file cygfile:///usr/share/doc/rsync/rrsync.1.html
+Installing file cygfile:///usr/share/doc/rsync/rsync-ssl.1.html
+Installing file cygfile:///usr/share/doc/rsync/rsync.1.html
+Installing file cygfile:///usr/share/doc/rsync/rsync3.txt
+Installing file cygfile:///usr/share/doc/rsync/rsyncd.conf.5.html
+Installing file cygfile:///usr/share/doc/rsync/rsyncsh.txt
+Installing file cygfile:///usr/share/doc/rsync/SECURITY.md
+Installing file cygfile:///usr/share/doc/rsync/TODO
+Installing file cygfile:///usr/share/man/
+Installing file cygfile:///usr/share/man/man1/
+Installing file cygfile:///usr/share/man/man1/rsync-ssl.1.gz
+Installing file cygfile:///usr/share/man/man1/rsync.1.gz
+Installing file cygfile:///usr/share/man/man5/
+Installing file cygfile:///usr/share/man/man5/rsyncd.conf.5.gz
+2026/02/15 14:52:16 Extracting from file://C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/krb5/libk5crypto3/libk5crypto3-1.15.2-2.tar.xz
+Installing file cygfile:///usr/bin/cygk5crypto-3.dll
+2026/02/15 14:52:16 Extracting from file://C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/krb5/libkrb5_3/libkrb5_3-1.15.2-2.tar.xz
+Installing file cygfile:///usr/bin/cygkrb5-3.dll
+2026/02/15 14:52:16 Extracting from file://C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/krb5/libgssapi_krb5_2/libgssapi_krb5_2-1.15.2-2.tar.xz
+Installing file cygfile:///usr/bin/cyggssapi_krb5-2.dll
+2026/02/15 14:52:16 Extracting from file://C:\Users\Hita/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssh/openssh-10.2p1-3-x86_64.tar.xz
+Installing file cygfile:///etc/
+Installing file cygfile:///etc/defaults/
+Installing file cygfile:///etc/defaults/etc/
+Installing file cygfile:///etc/defaults/etc/inetd.d/
+Installing file cygfile:///etc/defaults/etc/inetd.d/sshd-inetd
+Installing file cygfile:///etc/defaults/etc/sshd_config
+Installing file cygfile:///etc/defaults/etc/ssh_config
+Installing file cygfile:///etc/moduli
+Installing file cygfile:///etc/postinstall/
+Installing file cygfile:///etc/postinstall/openssh.sh
+Installing file cygfile:///usr/
+Installing file cygfile:///usr/bin/
+Installing file cygfile:///usr/bin/scp.exe
+Installing file cygfile:///usr/bin/sftp.exe
+Installing file cygfile:///usr/bin/ssh-add.exe
+Installing file cygfile:///usr/bin/ssh-agent.exe
+Installing file cygfile:///usr/bin/ssh-copy-id
+Installing file cygfile:///usr/bin/ssh-host-config
+Installing file cygfile:///usr/bin/ssh-keygen.exe
+Installing file cygfile:///usr/bin/ssh-keyscan.exe
+Installing file cygfile:///usr/bin/ssh-user-config
+Installing file cygfile:///usr/bin/ssh.exe
+Installing file cygfile:///usr/lib/
+Installing file cygfile:///usr/sbin/
+Installing file cygfile:///usr/sbin/sftp-server.exe
+Installing file cygfile:///usr/sbin/ssh-keysign.exe
+Installing file cygfile:///usr/sbin/ssh-pkcs11-helper.exe
+Installing file cygfile:///usr/sbin/ssh-sk-helper.exe
+Installing file cygfile:///usr/sbin/sshd-auth.exe
+Installing file cygfile:///usr/sbin/sshd-session.exe
+Installing file cygfile:///usr/sbin/sshd.exe
+Installing file cygfile:///usr/share/
+Installing file cygfile:///usr/share/doc/
+Installing file cygfile:///usr/share/doc/Cygwin/
+Installing file cygfile:///usr/share/doc/Cygwin/openssh.README
+Installing file cygfile:///usr/share/doc/openssh/
+Installing file cygfile:///usr/share/doc/openssh/ChangeLog
+Installing file cygfile:///usr/share/doc/openssh/CREDITS
+Installing file cygfile:///usr/share/doc/openssh/LICENCE
+Installing file cygfile:///usr/share/doc/openssh/OVERVIEW
+Installing file cygfile:///usr/share/doc/openssh/PROTOCOL
+Installing file cygfile:///usr/share/doc/openssh/PROTOCOL.agent
+Installing file cygfile:///usr/share/doc/openssh/PROTOCOL.mux
+Installing file cygfile:///usr/share/doc/openssh/README
+Installing file cygfile:///usr/share/doc/openssh/README.dns
+Installing file cygfile:///usr/share/doc/openssh/README.md
+Installing file cygfile:///usr/share/doc/openssh/README.platform
+Installing file cygfile:///usr/share/doc/openssh/README.privsep
+Installing file cygfile:///usr/share/doc/openssh/README.tun
+Installing file cygfile:///usr/share/doc/openssh/TODO
+Installing file cygfile:///usr/share/man/
+Installing file cygfile:///usr/share/man/man1/
+Installing file cygfile:///usr/share/man/man1/scp.1.gz
+Installing file cygfile:///usr/share/man/man1/sftp.1.gz
+Installing file cygfile:///usr/share/man/man1/slogin.1.gz
+Installing file cygfile:///usr/share/man/man1/ssh-add.1.gz
+Installing file cygfile:///usr/share/man/man1/ssh-agent.1.gz
+Installing file cygfile:///usr/share/man/man1/ssh-copy-id.1.gz
+Installing file cygfile:///usr/share/man/man1/ssh-keygen.1.gz
+Installing file cygfile:///usr/share/man/man1/ssh-keyscan.1.gz
+Installing file cygfile:///usr/share/man/man1/ssh.1.gz
+Installing file cygfile:///usr/share/man/man5/
+Installing file cygfile:///usr/share/man/man5/moduli.5.gz
+Installing file cygfile:///usr/share/man/man5/sshd_config.5.gz
+Installing file cygfile:///usr/share/man/man5/ssh_config.5.gz
+Installing file cygfile:///usr/share/man/man8/
+Installing file cygfile:///usr/share/man/man8/sftp-server.8.gz
+Installing file cygfile:///usr/share/man/man8/ssh-keysign.8.gz
+Installing file cygfile:///usr/share/man/man8/ssh-pkcs11-helper.8.gz
+Installing file cygfile:///usr/share/man/man8/ssh-sk-helper.8.gz
+Installing file cygfile:///usr/share/man/man8/sshd.8.gz
+Installing file cygfile:///usr/bin/slogin
+io_stream::mklink (cygfile:///usr/bin/slogin->cygfile://./ssh.exe)
+Visited: 92 nodes out of 11980 while creating dependency order.
+Dependency order of packages: terminfo zlib0 libzstd1 libgcc1 libncursesw10 libreadline7 libintl8 libiconv2 bash cygwin dash _autorebase alternatives base-cygwin libattr1 libgmp10 tzdata tzcode coreutils findutils sed base-files libbz2_1 bzip2 libffi6 libp11-kit0 p11-kit libtasn1_6 p11-kit-trust ca-certificates crypto-policies diffutils editrights libmpfr6 gawk libpcre2_8_0 grep csih cygrunsrv libpopt-common libpopt0 cygutils liblzma5 file libargp getent gettext-locale-alias libstdc++6 libuchardet0 groff gzip hostname info ipc-utils libpcre1 less libblkid1 libcom_err2 libcrypt2 libedit0 libuuid1 libfdisk1 libssl3 libfido2 libgdbm6 libgssapi_krb5_2 libk5crypto3 libkrb5_3 libkrb5support0 libsqlite3_0 liblastlog2 liblz4_1 libpipeline1 libreadline8 libsmartcols1 libssl1.1 libxxhash0 login util-linux man-db mintty ncurses openssh openssl rebase rsync run xz zstd tar vim-minimal which 
+2026/02/15 14:52:17 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+removing /var/cache/rebase/rebase_dyn
+creating empty /var/cache/rebase/rebase_dyn
+Updating rebase information for dynamic language modules/libraries /var/cache/rebase/rebase_dyn.
+removing /var/cache/rebase/rebase_dyn_exe
+creating empty /var/cache/rebase/rebase_dyn_exe
+Updating rebase information for user-defined executables /var/cache/rebase/rebase_dyn_exe.
+removing /var/cache/rebase/rebase_pkg
+creating empty /var/cache/rebase/rebase_pkg
+Updating package information in /var/cache/rebase/rebase_pkg.
+  from /etc/setup/alternatives.lst.gz
+  from /etc/setup/base-cygwin.lst.gz
+  from /etc/setup/base-files.lst.gz
+  from /etc/setup/bash.lst.gz
+  from /etc/setup/bzip2.lst.gz
+  from /etc/setup/ca-certificates.lst.gz
+  from /etc/setup/coreutils.lst.gz
+  from /etc/setup/crypto-policies.lst.gz
+  from /etc/setup/csih.lst.gz
+  from /etc/setup/cygrunsrv.lst.gz
+  from /etc/setup/cygutils.lst.gz
+  from /etc/setup/cygwin.lst.gz
+  from /etc/setup/dash.lst.gz
+  from /etc/setup/diffutils.lst.gz
+  from /etc/setup/editrights.lst.gz
+  from /etc/setup/file.lst.gz
+  from /etc/setup/findutils.lst.gz
+  from /etc/setup/gawk.lst.gz
+  from /etc/setup/getent.lst.gz
+  from /etc/setup/gettext-locale-alias.lst.gz
+  from /etc/setup/grep.lst.gz
+  from /etc/setup/groff.lst.gz
+  from /etc/setup/gzip.lst.gz
+  from /etc/setup/hostname.lst.gz
+  from /etc/setup/info.lst.gz
+  from /etc/setup/ipc-utils.lst.gz
+  from /etc/setup/less.lst.gz
+  from /etc/setup/libargp.lst.gz
+  from /etc/setup/libattr1.lst.gz
+  from /etc/setup/libblkid1.lst.gz
+  from /etc/setup/libbz2_1.lst.gz
+  from /etc/setup/libcom_err2.lst.gz
+  from /etc/setup/libcrypt2.lst.gz
+  from /etc/setup/libedit0.lst.gz
+  from /etc/setup/libfdisk1.lst.gz
+  from /etc/setup/libffi6.lst.gz
+  from /etc/setup/libfido2.lst.gz
+  from /etc/setup/libgcc1.lst.gz
+  from /etc/setup/libgdbm6.lst.gz
+  from /etc/setup/libgmp10.lst.gz
+  from /etc/setup/libgssapi_krb5_2.lst.gz
+  from /etc/setup/libiconv2.lst.gz
+  from /etc/setup/libintl8.lst.gz
+  from /etc/setup/libk5crypto3.lst.gz
+  from /etc/setup/libkrb5support0.lst.gz
+  from /etc/setup/libkrb5_3.lst.gz
+  from /etc/setup/liblastlog2.lst.gz
+  from /etc/setup/liblz4_1.lst.gz
+  from /etc/setup/liblzma5.lst.gz
+  from /etc/setup/libmpfr6.lst.gz
+  from /etc/setup/libncursesw10.lst.gz
+  from /etc/setup/libp11-kit0.lst.gz
+  from /etc/setup/libpcre1.lst.gz
+  from /etc/setup/libpcre2_8_0.lst.gz
+  from /etc/setup/libpipeline1.lst.gz
+  from /etc/setup/libpopt-common.lst.gz
+  from /etc/setup/libpopt0.lst.gz
+  from /etc/setup/libreadline7.lst.gz
+  from /etc/setup/libreadline8.lst.gz
+  from /etc/setup/libsmartcols1.lst.gz
+  from /etc/setup/libsqlite3_0.lst.gz
+  from /etc/setup/libssl1.1.lst.gz
+  from /etc/setup/libssl3.lst.gz
+  from /etc/setup/libstdc++6.lst.gz
+  from /etc/setup/libtasn1_6.lst.gz
+  from /etc/setup/libuchardet0.lst.gz
+  from /etc/setup/libuuid1.lst.gz
+  from /etc/setup/libxxhash0.lst.gz
+  from /etc/setup/libzstd1.lst.gz
+  from /etc/setup/login.lst.gz
+  from /etc/setup/man-db.lst.gz
+  from /etc/setup/mintty.lst.gz
+  from /etc/setup/ncurses.lst.gz
+  from /etc/setup/openssh.lst.gz
+  from /etc/setup/openssl.lst.gz
+  from /etc/setup/p11-kit-trust.lst.gz
+  from /etc/setup/p11-kit.lst.gz
+  from /etc/setup/rebase.lst.gz
+  from /etc/setup/rsync.lst.gz
+  from /etc/setup/run.lst.gz
+  from /etc/setup/sed.lst.gz
+  from /etc/setup/tar.lst.gz
+  from /etc/setup/terminfo.lst.gz
+  from /etc/setup/tzcode.lst.gz
+  from /etc/setup/tzdata.lst.gz
+  from /etc/setup/util-linux.lst.gz
+  from /etc/setup/vim-minimal.lst.gz
+  from /etc/setup/which.lst.gz
+  from /etc/setup/xz.lst.gz
+  from /etc/setup/zlib0.lst.gz
+  from /etc/setup/zstd.lst.gz
+  from /etc/setup/_autorebase.lst.gz
+removing /var/cache/rebase/rebase_lst
+creating empty /var/cache/rebase/rebase_lst
+Updating rebase information for installed dynamic objects in /var/cache/rebase/rebase_lst.
+Updating rebase information for installed executables in /var/cache/rebase/rebase_exe.
+Rebasing with list /var/cache/rebase/rebase_all, built from /var/cache/rebase/rebase_dyn /var/cache/rebase/rebase_lst.
+2026/02/15 14:52:19 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2026/02/15 14:52:20 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/openssh.sh"
+2026/02/15 14:52:20 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/zp_man-db-update-index.dash"
+  ManDB index not available.
+Program directory for program link: C:\ProgramData\Microsoft\Windows\Start Menu\Programs
+Desktop directory for desktop link: C:\Users\Public\Desktop
+2026/02/15 14:52:26 note: Installation Complete
+2026/02/15 14:52:26 Ending cygwin install
