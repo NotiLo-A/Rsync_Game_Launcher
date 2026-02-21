@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/your-username/Rsync_Game_Launcher/main/assets/logo.png" alt="RGL Logo" width="150" />
-
-# 🎮 Rsync Game Launcher
+# 🎮 Rsync Game Launcher 
 
 **RGL** — a blazing-fast peer-to-peer game file synchronization tool powered by reverse SSH tunneling and rsync.
 
@@ -25,14 +23,14 @@
 
 ## ✨ Features
 
-- 🔁 **Reverse SSH Tunneling** — the sender punches through NAT without any port forwarding
-- ⚡ **rsync-powered** — only transfers changed files; supports resuming partial downloads
-- 🪟 **Self-contained** — ships with a bundled Cygwin environment, no system-wide installation needed for receivers
-- 🔑 **Key-based auth** — auto-generates separate SSH key pairs for send and receive roles
-- 🎮 **Post-sync launcher** — automatically offers to launch the game after sync completes
-- 🔔 **Connection notifications** — optional Windows toast notifications when a client connects
-- 📋 **Full logging** — all sessions are saved to the `Logs/` folder
-- 🧩 **Simple flag-based modes** — `send` and `receive` via a single batch file
+- **Reverse SSH Tunneling** — the sender punches through NAT without any port forwarding
+- **rsync-powered** — only transfers changed files; supports resuming partial downloads
+- **Self-contained** — ships with a bundled Cygwin environment, no system-wide installation needed for receivers
+- **Key-based auth** — auto-generates separate SSH key pairs for send and receive roles
+- **Post-sync launcher** — automatically offers to launch the game after sync completes
+- **Connection notifications** — optional Windows toast notifications when a client connects
+- **Full logging** — all sessions are saved to the `Logs/` folder
+- **Simple flag-based modes** — `send` and `receive` via a single batch file
 
 ---
 
@@ -42,11 +40,11 @@
   ┌──────────────────────────────────────────────────────────────┐
   │                                                              │
   │  [SENDER PC]  ──── reverse SSH tunnel ────►  [SERVER/VPS]    │
-  │  (Windows / Cygwin)          port 22         (Linux)         │
+  │  (Windows / Cygwin)                          (Linux)         │
   │                                                   ▲          │
-  │                                    rsync over SSH │          │
-  │                                          port 2222│          │
-  │  [RECEIVER PC] ───────────────────────────────────┘          │
+  │                                                   │          │
+  │                                                   │          │
+  │  [RECEIVER PC] ────────── rsync over SSH ─────────┘          │
   │  (Windows / Cygwin)                                          │
   │                                                              │
   └──────────────────────────────────────────────────────────────┘
