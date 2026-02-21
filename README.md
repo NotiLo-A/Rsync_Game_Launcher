@@ -22,7 +22,7 @@
 
 </div>
 
----
+
 
 ## ✨ Features
 
@@ -34,9 +34,7 @@
 - **Connection notifications** — optional Windows toast notifications when a client connects
 - **Full logging** — all sessions are saved to the `Logs/` folder
 - **Simple flag-based modes** — `send` and `receive` via a single batch file
-
----
-
+<br><br>
 ## 📐 How It Works
 
 ```
@@ -59,9 +57,7 @@
 4. Partial transfers are saved in `Partial/` and resumed on the next run.
 
 > RGL was originally built for sharing Lethal Company mods (via [Gale mod manager](https://github.com/Kesomannen/gale)) between friends, but works for any file synchronization use case.
-
----
-
+<br><br>
 ## ⚡ Quick Start
 
 **For the Receiver** — just double-click the shortcut:
@@ -78,8 +74,7 @@ LethaLauncherData\LethaLauncher.bat receive
 ```
 
 Configure `config.sh` once and you're good to go.
-
----
+<br><br>
 
 ## 📤 Sender Setup
 
@@ -134,8 +129,7 @@ Then set `NOTICE_ON_CONNECTION=true` in your `config.sh`.
 ### Step 5 — Add the Receiver's Public Key
 
 The receiver shares their `ssh/receive/id_ed25519.pub` with you. Add it to your `~/.ssh/authorized_keys` so they can authenticate and connect.
-
----
+<br><br>
 
 ## 📥 Receiver Setup
 
@@ -154,8 +148,7 @@ RGL will:
 2. Connect to the VPS via rsync on the configured tunnel port
 3. Mirror all files (resuming any partial transfer from `Partial/`)
 4. Prompt you to launch the game
-
----
+<br><br>
 
 ## 🖥️ Server Setup
 
@@ -181,8 +174,7 @@ systemctl restart ssh
 ```
 
 > ⚠️ `GatewayPorts yes` is required to make the reverse tunnel port accessible from outside the server — not just from localhost.
-
----
+<br><br>
 
 ## 🔑 SSH Key Authentication
 
@@ -212,8 +204,7 @@ Receiver                                  Sender
 ```
 
 Keys are generated automatically on first run — no manual `ssh-keygen` needed.
-
----
+<br><br>
 
 ## 🛠️ Configuration
 
@@ -237,8 +228,6 @@ SERVER_SSH_PORT=22               # SSH port of the VPS
 LOCAL_FORWARD_PORT=22            # Local port to expose through the tunnel
 NOTICE_ON_CONNECTION=true        # Windows toast when a receiver connects
 ```
-
----
 
 ## 📁 Project Structure
 
@@ -271,8 +260,6 @@ Rsync_Game_Launcher/
             └── id_ed25519.pub
 ```
 
----
-
 ## 📦 Requirements
 
 | Role | Requirements |
@@ -281,7 +268,6 @@ Rsync_Game_Launcher/
 | **Receiver** | Windows only — Cygwin is bundled, just configure `config.sh` |
 | **Server** | Any Linux VPS with SSH, `AllowTcpForwarding yes` and `GatewayPorts yes` |
 
----
 
 ## 🚀 Usage Reference
 
@@ -291,7 +277,6 @@ Rsync_Game_Launcher/
 | `LethaLauncher.bat send` | Send | Manually start sender mode |
 | `LethaLauncher.bat receive` | Receive | Sync files from sender, then optionally launch game |
 
----
 
 ## 🤝 Contributing
 
@@ -303,7 +288,6 @@ Contributions, issues, and feature requests are welcome!
 4. Push to the branch: `git push origin feature/my-feature`
 5. Open a Pull Request
 
----
 
 ## 📄 License
 
@@ -319,7 +303,7 @@ the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 ```
 
----
+----
 
 <div align="center">
           <!--for all my friends :3-->
