@@ -1,17 +1,14 @@
 <div align="center">
 
-# 🎮 Rsync Game Launcher 🎮
+# Rsync Game Launcher 
 
 **RGL** — a high-performance peer-to-peer game file synchronization tool built on reverse SSH tunneling and rsync.
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg?style=for-the-badge)](https://www.gnu.org/licenses/gpl-3.0)
-[![Platform](https://img.shields.io/badge/Platform-Windows-blue?style=for-the-badge&logo=windows)](https://www.microsoft.com/windows)
-[![Shell](https://img.shields.io/badge/Shell-Bash%20%2F%20Cygwin-green?style=for-the-badge&logo=gnu-bash)](https://www.cygwin.com/)
-[![SSH](https://img.shields.io/badge/Powered%20by-OpenSSH%20%2B%20Rsync-orange?style=for-the-badge&logo=openssh)](https://www.openssh.com/)
-
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Platform](https://img.shields.io/badge/Platform-Windows-blue)](https://www.microsoft.com/windows)
+[![Shell](https://img.shields.io/badge/Shell-Bash%20%2F%20Cygwin-green)](https://www.cygwin.com/)
+[![SSH](https://img.shields.io/badge/Powered%20by-OpenSSH%20%2B%20Rsync-orange)](https://www.openssh.com/)
 <br/>
-
-> *Share your game files with friends directly — no cloud, no size limits, no nonsense.*
 
 <br/>
 
