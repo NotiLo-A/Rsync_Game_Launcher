@@ -15,7 +15,7 @@
 
 <br/>
 
-[📖 How It Works](#-how-it-works) · [⚡ Quick Start](#-quick-start) · [📤 Sender Setup](#-sender-setup) · [📥 Receiver Setup](#-receiver-setup) · [🖥️ Server Setup](#%EF%B8%8F-server-setup) · [🔑 SSH Keys](#-ssh-key-authentication) · [🛠️ Configuration](#%EF%B8%8F-configuration)
+[How It Works](#-how-it-works) · [Quick Start](#-quick-start) · [Sender Setup](#-sender-setup) · [Receiver Setup](#-receiver-setup) · [Server Setup](#%EF%B8%8F-server-setup) · [SSH Keys](#-ssh-key-authentication) · [Configuration](#%EF%B8%8F-configuration)
 
 </div>
 
