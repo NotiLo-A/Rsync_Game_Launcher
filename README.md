@@ -202,7 +202,7 @@ LethaLauncherData/ssh/
 Receiver                                  Sender
    │                                         │
    │─── share receive/id_ed25519.pub ───────►│
-   │                                         │─── adds key to ~/.ssh/authorized_keys
+   │                                         │─── adds key to C:\cygwin64\home\USER\.ssh\authorized_keys
    │                                         │─── LethaLauncher.bat send
    │─── LethaLauncher.bat receive ───────────│
    │◄──────────── files synced ──────────────│
@@ -219,7 +219,7 @@ All settings live in `LethaLauncherData/config.sh`:
 ```bash
 # ── Common ───────────────────────────────────────────────────────────────────
 DATA_DIR="LethaLauncherData"
-SERVER_IP=167.99.141.95          # Public IP or domain of your VPS
+SERVER_IP=xx.xx.xx.xx            # Public IP or domain of your VPS
 REMOTE_FORWARD_PORT=2222         # Port the reverse tunnel will be exposed on
 SSH_USER=hita                    # SSH user on the VPS
 
