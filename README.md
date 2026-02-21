@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎮 Rsync Game Launcher 
+# 🎮 Rsync Game Launcher 🎮
 
 **RGL** — a high-performance peer-to-peer game file synchronization tool built on reverse SSH tunneling and rsync.
 
