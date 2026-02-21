@@ -15,7 +15,13 @@
 
 <br/>
 
-[How It Works](#-how-it-works) · [Quick Start](#-quick-start) · [Sender Setup](#-sender-setup) · [Receiver Setup](#-receiver-setup) · [Server Setup](#%EF%B8%8F-server-setup) · [SSH Keys](#-ssh-key-authentication) · [Configuration](#%EF%B8%8F-configuration)
+<a href="#-how-it-works"><kbd> <br> How It Works <br> </kbd></a>&ensp;&ensp;
+<a href="#-quick-start"><kbd> <br> Quick Start <br> </kbd></a>&ensp;&ensp;
+<a href="#-sender-setup"><kbd> <br> Sender Setup <br> </kbd></a>&ensp;&ensp;
+<a href="#-receiver-setup"><kbd> <br> Receiver Setup <br> </kbd></a>&ensp;&ensp;
+<a href="#%EF%B8%8F-server-setup"><kbd> <br> Server Setup <br> </kbd></a>&ensp;&ensp;
+<a href="#-ssh-key-authentication"><kbd> <br> SSH Keys <br> </kbd></a>&ensp;&ensp;
+<a href="#%EF%B8%8F-configuration"><kbd> <br> Configuration <br> </kbd></a>&ensp;&ensp;
 
 </div>
 
