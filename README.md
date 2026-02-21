@@ -319,7 +319,7 @@ the Free Software Foundation, either version 3 of the License, or
 ---
 
 <div align="center">
-
+          <!--for all my friends :3-->
 Made with ❤️ for the Lethal Company modding community
 
 *and anyone else who wants to share files the hacker way*
