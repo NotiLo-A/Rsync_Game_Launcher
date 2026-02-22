@@ -295,7 +295,7 @@ This project is licensed under the **GNU General Public License v3.0** — see t
 
 ```
 Rsync Game Launcher — P2P game file sync via reverse SSH and rsync
-Copyright (C) 2024  your-username
+Copyright (C) 2026 NotiLo-A
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
