@@ -87,8 +87,8 @@ ssh-host-config
 ```
 
 ```
-Should StrictModes be used?          → no
-Install sshd as a service?           → yes
+Should StrictModes be used?                 → no
+Install sshd as a service?                  → yes
 Enter the value of CYGWIN for the daemon[]: → (press Enter)
 ```
 
