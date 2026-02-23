@@ -221,7 +221,7 @@ SSH_USER=hita                    # SSH user on the VPS
 SOURCE_WINDOWS="C:\\Users\\Hita\\AppData\\Roaming\\com.kesomannen.gale\\lethal-company\\profiles\\mainV1\\BepInEx"
 SOURCE="$(cygpath -u "$SOURCE_WINDOWS")"   # Auto-converted to Unix path
 DESTINATION="BepInEx"                      # Local destination folder
-GAME_BIN="Lethal Company.exe"             # Executable to launch after sync
+GAME_BIN="Lethal Company.exe"              # Executable to launch after sync
 
 # ── Sender specific ───────────────────────────────────────────────────────────
 SERVER_SSH_PORT=22               # SSH port of the VPS
