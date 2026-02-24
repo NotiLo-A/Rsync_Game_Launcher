@@ -48,7 +48,7 @@ _ssh_check_access() {
         -o UserKnownHostsFile=/dev/null \
         -o ConnectTimeout=5 \
         -o BatchMode=yes \
-        hita@"$server_ip" true 2>&1)
+        $SSH_USER@"$server_ip" true 2>&1)
 
     local rc=$?
 
