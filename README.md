@@ -95,7 +95,7 @@ Enter the value of CYGWIN for the daemon[]: → (press Enter)
 ### Step 3 — Start the SSH Service
 
 ```bash
-sygrunsrv -S cygssh
+cygrunsrv -S cygsshd
 ```
 
 ### Step 4 — Authorize the Receiver
